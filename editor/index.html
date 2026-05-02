@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZK Pixel Art Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pixel Editor</h1>
+
+    <div class="controls">
+      <input type="color" id="colorPicker" value="#ff0000">
+
+      <button id="brushBtn" class="active">Brush</button>
+      <button id="eraserBtn">Eraser</button>
+
+      <button id="clearBtn">Clear</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="grid" class="pixel-grid"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
