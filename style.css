@@ -2,6 +2,15 @@
   --grid-size: 50;
   --pixel-border: 1px solid #222;
 }
+.canvas-wrapper {
+  overflow: hidden;
+  touch-action: none;
+  position: relative;
+}
+
+#grid {
+  transform-origin: 0 0;
+}
 
 * {
   box-sizing: border-box;
